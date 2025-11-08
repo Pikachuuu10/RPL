@@ -1,12 +1,6 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/12.5.0/firebase-app.js";
-import { getDatabase, ref, onValue } from "https://www.gstatic.com/firebasejs/12.5.0/firebase-database.js";
+import { ref, onValue } from "https://www.gstatic.com/firebasejs/12.5.0/firebase-database.js";
 import { firebaseConfig } from "./config.js";
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const database = getDatabase(app);
-
-// Reference to 'mahasiswa' node
 const mahasiswaRef = ref(database, 'data_mahasiswa');
 
 // Get table body element
@@ -47,4 +41,5 @@ onValue(mahasiswaRef, (snapshot) => {
         
         counter++;
     });
+
 });
