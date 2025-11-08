@@ -1,5 +1,8 @@
-import { ref, onValue } from "https://www.gstatic.com/firebasejs/12.5.0/firebase-database.js";
-import { firebaseConfig } from "./config.js";
+import { ref, onValue } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-database.js";
+import { database } from "./config.js";
+
+// Debug logs
+console.log('Firebase imports:', { ref, database });
 
 const mahasiswaRef = ref(database, 'data_mahasiswa');
 
@@ -41,5 +44,4 @@ onValue(mahasiswaRef, (snapshot) => {
         
         counter++;
     });
-
 });

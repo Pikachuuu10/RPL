@@ -1,9 +1,11 @@
+import { firebaseConfig, database } from "./config.js";
 import { ref, push } from "https://www.gstatic.com/firebasejs/12.5.0/firebase-database.js";
-import { firebaseConfig } from "./config.js";
 
 const form = document.getElementById('dataForm');
 const alertElement = document.querySelector('.alert');
 
+
+// Create reference to 'mahasiswa' node in database
 const mahasiswaRef = ref(database, 'data_mahasiswa');
 
 if (!form) {
@@ -43,5 +45,4 @@ if (!form) {
             alert('Gagal menyimpan data: ' + error.message);
         });
     });
-
 }

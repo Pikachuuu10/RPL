@@ -1,8 +1,8 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js";
 import { getDatabase } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-database.js";
 
-
 // Initialize Firebase
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyBIzgv14G8Af1Ccy4_yIljBujCfJEXFEgc",
   authDomain: "input-bfeb7.firebaseapp.com",
@@ -13,9 +13,8 @@ const firebaseConfig = {
   appId: "1:422287140007:web:f2e755acb5dfa46abce782",
   measurementId: "G-PTB9ZHXC6F"
 };
-
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
 
 export { firebaseConfig, database};
-
