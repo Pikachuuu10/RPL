@@ -1,10 +1,10 @@
-# 📌 Final Project RPL – Sistem [Edufunkids]
+# 📌 Final Project RPL – Sistem [Pemesanan Percetakan Berbasis Web]
 
-EduFunKids – Platform Edukasi Interaktif Anak
+EduFunKids – Platform Pemesanan Percetakan Berbasis Web
 
 ## 👥 Identitas Kelompok
 
-- _Nama Kelompok :_ [kelompok 7]
+- _Nama Kelompok :_ [kelompok 3]
 - _Anggota & Jobdesk :_
   | Nama Anggota | Tugas / Jobdesk |
   |--------------|-----------------|
@@ -115,4 +115,5 @@ Dosen Pengampu: Dila Nurlaila, M.Kom
 
 ## 📄 Lisensi
 
-© 2025 DealPrinting — Kelompok 5 RPL
+© 2025 DealPrinting — Kelompok 3 RPL
+
