@@ -100,7 +100,7 @@ https://pikachuuu10.github.io/pemesanan-percetakan/
 - Beberapa fitur lanjutan seperti laporan otomatis masih dapat dikembangkan.
 - UI masih bisa dimodernisasi menggunakan framework CSS modern.
 - Fitur pembayaran dapat diperluas ke payment gateway seperti Midtrans.
-- fFile desain harus berada dalam folder yang sesuai (assets/img atau storage/).
+- File desain harus berada dalam folder yang sesuai (assets/img atau storage/).
 
 ## Hal-hal Penting yang Perlu Diketahui
 
@@ -116,4 +116,5 @@ Dosen Pengampu: Dila Nurlaila, M.Kom
 ## 📄 Lisensi
 
 © 2025 DealPrinting — Kelompok 3 RPL
+
 
