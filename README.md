@@ -1,6 +1,6 @@
 # 📌 Final Project RPL – Sistem [Pemesanan Percetakan Berbasis Web]
 
-EduFunKids – Platform Pemesanan Percetakan Berbasis Web
+Deal Printing – Platform Pemesanan Percetakan Berbasis Web
 
 ## 👥 Identitas Kelompok
 
@@ -9,7 +9,7 @@ EduFunKids – Platform Pemesanan Percetakan Berbasis Web
   | Nama Anggota | Tugas / Jobdesk |
   |--------------|-----------------|
   | Erika | Requirement Gathering, Implementasi Frontend |
-  | Dela Natasya | Design (UML, UI), SRS, materi
+  | Dela Natasya | Design (UML, UI), SRS, materi PPT
 
 ## 📱Deskripsi Singkat Aplikasi
 
@@ -30,7 +30,7 @@ Deal Printing adalah aplikasi pemesanan layanan percetakan berbasis web yang dir
 ### yang menyediakan fitur utama:
 
 - Halaman beranda berisi informasi layanan.
-- MForm pemesanan (upload desain).
+- Form pemesanan (upload desain).
 - Estimasi biaya otomatis.
 - Dashboard admin untuk verifikasi, update status, dan laporan transaksi.
 
@@ -116,5 +116,6 @@ Dosen Pengampu: Dila Nurlaila, M.Kom
 ## 📄 Lisensi
 
 © 2025 DealPrinting — Kelompok 3 RPL
+
 
 
